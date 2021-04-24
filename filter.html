@@ -1,0 +1,18 @@
+<html>
+<head>
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+</script>
+<script type="text/javascript" src="filter.js"></script>
+<link type="text/css" rel="stylesheet" href="filter.css"/>
+</head>
+<body>
+<h1>Enjoy using this black n white filter !</h1>
+<p class="pchange">Choose any image and apply this filter.</p>
+<hr>
+<canvas id="imageup">
+</canvas>
+<p><p class="b4">Upload image:</p> <input type="file" multiple="false" class="b3" accept="image/*" id="fgfile" onchange="loadImage()" >
+</p>
+<p><input type="button" class="b1" value="Make gray" onclick="makeGray()"/>
+  <input type="button" class="b2" value="reset image" onclick="reset()">
+</body>
